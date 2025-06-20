@@ -3,12 +3,12 @@ import "./App.css";
 
 import Opener from "./components/Opener";
 import ApologyNote from "./components/ApologyNote";
-import HomePage from "./components/Homepage";
 import LoveMeter from "./components/LoveMeter";
 import MusicPlayer from "./components/MusicPlayer";
 import PhotoCarousel from "./components/PhotoCarousel";
 import SurpriseReveal from "./components/SupriseReveal";
 import ImageTogether from "./components/ImageTogether";
+import HomePage from "./components/Homepage";
 
 function App() {
   const [showMain, setShowMain] = useState(false);
@@ -19,7 +19,7 @@ function App() {
 
       {showMain && (
         <>
-          <HomePage />
+          <HomePage></HomePage>
           <PhotoCarousel />
           <ApologyNote />
           <SurpriseReveal />

@@ -4,7 +4,7 @@ import { Player } from "@lottiefiles/react-lottie-player";
 import heartAnimation from "../assets/heart.json";
 import couplePhoto from "../assets/winipin.png"; // Replace with your photo
 
-export default function LoveIntro() {
+export default function HomePage() {
   const [showMerged, setShowMerged] = useState(false);
 
   useEffect(() => {
