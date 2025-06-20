@@ -8,7 +8,7 @@ import MusicPlayer from "./components/MusicPlayer";
 import PhotoCarousel from "./components/PhotoCarousel";
 import SurpriseReveal from "./components/SupriseReveal";
 import ImageTogether from "./components/ImageTogether";
-import HomePage from "./components/Homepage";
+import Home from "./components/Home";
 
 function App() {
   const [showMain, setShowMain] = useState(false);
@@ -19,7 +19,7 @@ function App() {
 
       {showMain && (
         <>
-          <HomePage></HomePage>
+          <Home></Home>
           <PhotoCarousel />
           <ApologyNote />
           <SurpriseReveal />
